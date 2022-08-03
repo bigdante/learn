@@ -15,7 +15,6 @@ for i in range(100):
 image_path = "tensorboard_data/train/ants/800px-Meat_eater_ant_qeen_excavating_hole.jpg"
 image_array = np.array(Image.open(image_path))
 writer.add_image("image", image_array, 2, dataformats='HWC')
-#
 writer.close()
-# 运行命令，进入网页查看
+# 运行命令，进入网页查看，可以修改端口
 # tensorboard --logdir=logs --port=6007
