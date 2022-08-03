@@ -1,18 +1,18 @@
 # pip install tensorboard
+# 这种方式已经不行了
 # from torch.utils.tensorboard import SummaryWriter
-import os
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
-# 以上两行代码为了解决： OMP: Error #15: Initializing libiomp5.dylib, but found libomp.dylib already initialized.
-import numpy as np
-from PIL import Image
+# 要用这种方式导入SummaryWriter
 from tensorboardX import SummaryWriter
 
+import numpy as np
+from PIL import Image
+
+
 writer = SummaryWriter("logs")
-# 注意名字不能相同
 for i in range(100):
     writer.add_scalar("y=2x", 2*i, i)
 
-image_path = "/2-pytorch-basic/tensorboard/tensorboard_data/train/ants/0013035.jpg"
+image_path = "tensorboard_data/train/ants/800px-Meat_eater_ant_qeen_excavating_hole.jpg"
 image_array = np.array(Image.open(image_path))
 writer.add_image("image", image_array, 2, dataformats='HWC')
 #
