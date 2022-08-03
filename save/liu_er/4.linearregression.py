@@ -1,6 +1,6 @@
 import torch
 
-# prepare dataset
+# prepare dataset_dataloader_transform
 # x,y是矩阵，3行1列 也就是说总共有3个数据，每个数据只有1个特征
 x_data = torch.tensor([[1.0], [2.0], [3.0]])
 y_data = torch.tensor([[2.0], [4.0], [6.0]])

@@ -2,7 +2,7 @@ import torch
 
 # import torch.nn.functional as F
 
-# prepare dataset
+# prepare dataset_dataloader_transform
 x_data = torch.Tensor([[1.0], [2.0], [3.0]])
 y_data = torch.Tensor([[0], [0], [1]])
 

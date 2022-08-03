@@ -66,8 +66,11 @@ batch = 64
 x = torch.rand((batch, 2, 5))
 z = x.view(batch, -1)
 
+# 更换维度顺序
 z = x.permute(0, 2, 1)
 
 x = torch.arange(10)
-print(x.unsqueeze(0))
+print(x.shape)
+print(x.unsqueeze(0).shape)
 print(x.unsqueeze(1))
+print(x.unsqueeze(1).shape)
