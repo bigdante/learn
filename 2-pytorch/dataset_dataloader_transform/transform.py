@@ -1,7 +1,7 @@
 from PIL import Image
 from torchvision import transforms
 from tensorboardX import SummaryWriter
-image_path = "/2-pytorch-basic/tensorboard/tensorboard_data/train/ants/0013035.jpg"
+image_path = "/2-pytorch/tensorboard/tensorboard_data/train/ants/0013035.jpg"
 imag = Image.open(image_path)
 to_tensor = transforms.ToTensor()
 image_tensor = to_tensor(pic=imag)
