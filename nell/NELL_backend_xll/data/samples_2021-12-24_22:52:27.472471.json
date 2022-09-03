@@ -1,0 +1,1618 @@
+[
+    {
+        "_id": "61c5db0a5744cac67e52e6b9",
+        "head_entity": "childhood autism",
+        "head_linked_entity": "autism",
+        "relation": "medical_condition",
+        "tail_entity": "autism spectrum disorders",
+        "evidences": [
+            {
+                "text": "The terminology of autism can be bewildering, with autism, Asperger syndrome and PDD-NOS often called the \"autism spectrum disorders\" (ASD) or sometimes the \"autistic disorders\", whereas autism itself is often called \"autistic disorder\", \"childhood autism\", or \"infantile autism\".",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.254,
+                "ts": "2021-12-24 14:36:58.230033"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong head type"
+    },
+    {
+        "_id": "61c5dc445744cac67e52ea71",
+        "head_entity": "one man, one vote",
+        "head_linked_entity": "one man, one vote",
+        "relation": "creator",
+        "tail_entity": "Supreme Court",
+        "evidences": [
+            {
+                "text": "In \"Reynolds v. Sims\" (1964), the US Supreme Court implemented the principle of \"one man, one vote\", ruling that congressional districts had to be reapportioned based on censuses (as the state already included in its constitution but had not implemented.)",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.669,
+                "ts": "2021-12-24 14:42:12.805980"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5dca85744cac67e52eb82",
+        "head_entity": "Birmingham",
+        "head_linked_entity": "birmingham",
+        "relation": "head_of_government",
+        "tail_entity": "Bryant-Denny Stadium",
+        "evidences": [
+            {
+                "text": "In 2009, Bryant–Denny Stadium and Jordan-Hare Stadium became the homes of the Alabama High School Athletic Association state football championship games, after previously being held at Legion Field in Birmingham.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.187,
+                "ts": "2021-12-24 14:43:52.668591"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5db5c5744cac67e52e7bd",
+        "head_entity": "Western Europe",
+        "head_linked_entity": "western europe",
+        "relation": "located_in_time_zone",
+        "tail_entity": "in the twentieth century",
+        "evidences": [
+            {
+                "text": "At the end of the Roman Empire (5th century AD), several variants of the cursive minuscule developed through Western Europe.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.211,
+                "ts": "2021-12-24 14:38:20.920262"
+            }
+        ],
+        "judge": 0,
+        "reason": "out of context"
+    },
+    {
+        "_id": "61c5dc8c5744cac67e52eb40",
+        "head_entity": "1994 general election",
+        "head_linked_entity": "1994 south african general election",
+        "relation": "successful_candidate",
+        "tail_entity": "Shelby",
+        "evidences": [
+            {
+                "text": "Shelby was originally elected to the Senate as a Democrat in 1986 and re-elected in 1992, but switched parties immediately following the November 1994 general election.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.71,
+                "ts": "2021-12-24 14:43:24.419624"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5dc0c5744cac67e52e9de",
+        "head_entity": "the state",
+        "head_linked_entity": "alabama",
+        "relation": "located_in_time_zone",
+        "tail_entity": "Krasnoyarsk Time",
+        "evidences": [
+            {
+                "text": "In 2010, per capita income for the state was $22,984.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.271,
+                "ts": "2021-12-24 14:41:16.457709"
+            }
+        ],
+        "judge": 0,
+        "reason": "out of context"
+    },
+    {
+        "_id": "61c5dbf75744cac67e52e9af",
+        "head_entity": "Alabama",
+        "head_linked_entity": "alabama",
+        "relation": "shares_border_with",
+        "tail_entity": "Florida",
+        "evidences": [
+            {
+                "text": "Alabama is located in the middle of the Bible Belt, a region of numerous Protestant Christians.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.39,
+                "ts": "2021-12-24 14:40:55.614495"
+            }
+        ],
+        "judge": 0,
+        "reason": "out of context"
+    },
+    {
+        "_id": "61c5ddf15744cac67e52ef23",
+        "head_entity": "Samuel Lincoln",
+        "head_linked_entity": "abraham lincoln",
+        "relation": "father",
+        "tail_entity": "He",
+        "evidences": [
+            {
+                "text": "He was a descendant of Samuel Lincoln, an Englishman who migrated from Hingham, Norfolk, to its namesake, Hingham, Massachusetts, in 1638.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.992,
+                "ts": "2021-12-24 14:49:21.222512"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dd885744cac67e52edd0",
+        "head_entity": "Olbia",
+        "head_linked_entity": "olbia",
+        "relation": "located_in_or_next_to_body_of_water",
+        "tail_entity": "Black Sea",
+        "evidences": [
+            {
+                "text": "Early dedicatory inscriptions from the Greek colonies on the Black Sea (graffiti and inscribed clay disks, these possibly being votive offerings, from Olbia, the area of Berezan Island and the Tauric Chersonese) attest the existence of a heroic cult of Achilles from the sixth century BC onwards.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.932,
+                "ts": "2021-12-24 14:47:36.449380"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5dae25744cac67e52e65e",
+        "head_entity": "United States",
+        "head_linked_entity": "united states",
+        "relation": "flag",
+        "tail_entity": "flag of the United States",
+        "evidences": [
+            {
+                "text": "from 0.7% in 2000 in the United States.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.976,
+                "ts": "2021-12-24 14:36:18.336330"
+            }
+        ],
+        "judge": 0,
+        "reason": "out of context"
+    },
+    {
+        "_id": "61c5db165744cac67e52e6e1",
+        "head_entity": "ABA",
+        "head_linked_entity": "american basketball association",
+        "relation": "follows",
+        "tail_entity": "DSP",
+        "evidences": [
+            {
+                "text": "One interventional strategy utilizes a parent training model, which teaches parents how to implement various ABA and DSP techniques, allowing for parents to disseminate interventions themselves.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.698,
+                "ts": "2021-12-24 14:37:10.751929"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dc0f5744cac67e52e9e3",
+        "head_entity": "U.S.",
+        "head_linked_entity": "united states",
+        "relation": "office_held_by_head_of_government",
+        "tail_entity": "Governor",
+        "evidences": [
+            {
+                "text": ", Alabama has the sixth highest poverty rate among states in the U.S.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.765,
+                "ts": "2021-12-24 14:41:19.254207"
+            }
+        ],
+        "judge": 0,
+        "reason": "out of context"
+    },
+    {
+        "_id": "61c5dc2e5744cac67e52ea3c",
+        "head_entity": "Alabama's",
+        "head_linked_entity": "alabama",
+        "relation": "mouth_of_the_watercourse",
+        "tail_entity": "Gulf Coast",
+        "evidences": [
+            {
+                "text": "Of the parks and natural destinations, Alabama's Gulf Coast topped the list with 6,700,000 visitors.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.644,
+                "ts": "2021-12-24 14:41:50.852876"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dc8c5744cac67e52eb3f",
+        "head_entity": "1994 general election",
+        "head_linked_entity": "1994 south african general election",
+        "relation": "follows",
+        "tail_entity": "1992 election",
+        "evidences": [
+            {
+                "text": "Shelby was originally elected to the Senate as a Democrat in 1986 and re-elected in 1992, but switched parties immediately following the November 1994 general election.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.263,
+                "ts": "2021-12-24 14:43:24.415392"
+            }
+        ],
+        "judge": 1,
+    },
+    {
+        "_id": "61c5dd9e5744cac67e52ee09",
+        "head_entity": "Glaukos",
+        "head_linked_entity": "glaucus of lycia",
+        "relation": "followed_by",
+        "tail_entity": "Poseidon",
+        "evidences": [
+            {
+                "text": "A fifth century BC black-glazed lekythos inscription, found on the island in 1840, reads: \"Glaukos, son of Poseidon, dedicated me to Achilles, lord of Leuke\".",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.725,
+                "ts": "2021-12-24 14:47:58.347435"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5db585744cac67e52e7a6",
+        "head_entity": "clear skies",
+        "head_linked_entity": "clear skies act of 2003",
+        "relation": "country",
+        "tail_entity": "Kuwait",
+        "evidences": [
+            {
+                "text": "A study following the burning of the Kuwaiti oil fields during Iraqi occupation showed that temperatures under the burning oil fires were as much as 10 °C colder than temperatures several miles away under clear skies.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.885,
+                "ts": "2021-12-24 14:38:16.096432"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong entity"
+    },
+    {
+        "_id": "61c5dc2d5744cac67e52ea39",
+        "head_entity": "Huntsville",
+        "head_linked_entity": "huntsville, alabama",
+        "relation": "shares_border_with",
+        "tail_entity": "Birmingham",
+        "evidences": [
+            {
+                "text": "The top attraction was the U.S. Space & Rocket Center in Huntsville with an attendance of 849,981 followed by the Birmingham Zoo with 543,090 visitors.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.854,
+                "ts": "2021-12-24 14:41:49.235382"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5de9a5744cac67e52f189",
+        "head_entity": "Lincoln",
+        "head_linked_entity": "lincoln, england",
+        "relation": "replaces",
+        "tail_entity": "Republicans",
+        "evidences": [
+            {
+                "text": "Attempts at compromise followed but Lincoln and the Republicans rejected the proposed Crittenden Compromise as contrary to the Party's platform of free-soil in the territories.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.642,
+                "ts": "2021-12-24 14:52:10.133240"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dbd35744cac67e52e948",
+        "head_entity": "Birmingham",
+        "head_linked_entity": "birmingham",
+        "relation": "country",
+        "tail_entity": "United States",
+        "evidences": [
+            {
+                "text": "Winters are generally mild in Alabama, as they are throughout most of the Southeastern United States, with average January low temperatures around in Mobile and around in Birmingham.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.955,
+                "ts": "2021-12-24 14:40:19.088131"
+            }
+        ],
+        "judge": 1,
+    },
+    {
+        "_id": "61c5dacd5744cac67e52e622",
+        "head_entity": "free love",
+        "head_linked_entity": "free love",
+        "relation": "creator",
+        "tail_entity": "anarchists",
+        "evidences": [
+            {
+                "text": "Some anarchists soon found out that free love wasn't without adverse effects as jealously arose.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.51,
+                "ts": "2021-12-24 14:35:57.222774"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5de9e5744cac67e52f195",
+        "head_entity": "Lincoln",
+        "head_linked_entity": "lincoln, england",
+        "relation": "legislative_body",
+        "tail_entity": "Congress",
+        "evidences": [
+            {
+                "text": "A few weeks before the war, Lincoln sent a letter to every governor informing them Congress had passed a joint resolution to amend the Constitution.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.983,
+                "ts": "2021-12-24 14:52:14.496126"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong head type"
+    },
+    {
+        "_id": "61c5daef5744cac67e52e67e",
+        "head_entity": "inference",
+        "head_linked_entity": "inference",
+        "relation": "followed_by",
+        "tail_entity": "comprehension",
+        "evidences": [
+            {
+                "text": "Both autistic groups performed worse than controls at complex language tasks such as figurative language, comprehension and inference.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.94,
+                "ts": "2021-12-24 14:36:31.391394"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5de565744cac67e52f093",
+        "head_entity": "he",
+        "head_linked_entity": "abraham lincoln",
+        "relation": "family",
+        "tail_entity": "founding fathers",
+        "evidences": [
+            {
+                "text": "He argued the decision was at variance with the Declaration of Independence; he said that while the founding fathers did not believe all men equal in every respect, they believed all men were equal \"in certain inalienable rights, among which are life, liberty, and the pursuit of happiness\".",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.799,
+                "ts": "2021-12-24 14:51:02.268471"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5db4e5744cac67e52e781",
+        "head_entity": "snow",
+        "head_linked_entity": "snow",
+        "relation": "followed_by",
+        "tail_entity": "ice",
+        "evidences": [
+            {
+                "text": "This has been a concern since arctic ice and snow has been melting at higher rates due to higher temperatures, creating regions in the arctic that are notably darker (being water or ground which is darker color) and reflects less heat back into space.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.916,
+                "ts": "2021-12-24 14:38:06.485218"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dded5744cac67e52ef0b",
+        "head_entity": "him",
+        "head_linked_entity": "abraham lincoln",
+        "relation": "family",
+        "tail_entity": "Lincoln",
+        "evidences": [
+            {
+                "text": "Lincoln's marriage had produced four sons, two of whom preceded him in death, with severe emotional impact upon him and Mary.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.775,
+                "ts": "2021-12-24 14:49:17.566966"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dca65744cac67e52eb7b",
+        "head_entity": "NCAA",
+        "head_linked_entity": "national collegiate athletic association",
+        "relation": "sport",
+        "tail_entity": "football",
+        "evidences": [
+            {
+                "text": "Peebles Stadium in Mobile is the home of the University of South Alabama football team, and serves as the home of the NCAA Senior Bowl, Dollar General Bowl (formerly GoDaddy.com Bowl), and",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.997,
+                "ts": "2021-12-24 14:43:50.194879"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5dbfe5744cac67e52e9c0",
+        "head_entity": "state legislature",
+        "head_linked_entity": "california state legislature",
+        "relation": "replaces",
+        "tail_entity": "It",
+        "evidences": [
+            {
+                "text": "It was formally recognized by the state legislature on January 25, 1844.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.906,
+                "ts": "2021-12-24 14:41:02.749476"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dcd75744cac67e52ec0f",
+        "head_entity": "palatalized",
+        "head_linked_entity": "palatalization",
+        "relation": "followed_by",
+        "tail_entity": "l",
+        "evidences": [
+            {
+                "text": "Robert S. P. Beekes has suggested a Pre-Greek origin of the name, based among other things on the coexistence of \"-λλ-\" and \"-λ-\" in epic language, which may account for a palatalized phoneme /l/",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.121,
+                "ts": "2021-12-24 14:44:39.839130"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong tail entity"
+    },
+    {
+        "_id": "61c5db2c5744cac67e52e71c",
+        "head_entity": "Luther",
+        "head_linked_entity": "martin luther",
+        "relation": "sex_or_gender",
+        "tail_entity": "male",
+        "evidences": [
+            {
+                "text": "The \"Table Talk\" of Martin Luther, compiled by his notetaker, Mathesius, contains the story of a 12-year-old boy who may have been severely autistic.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 1.0,
+                "ts": "2021-12-24 14:37:32.563910"
+            }
+        ],
+        "judge": 0,
+        "reason": "out of context"
+    },
+    {
+        "_id": "61c5dd445744cac67e52ed25",
+        "head_entity": "funeral games",
+        "head_linked_entity": "funeral games",
+        "relation": "follows",
+        "tail_entity": "Patroclus",
+        "evidences": [
+            {
+                "text": "After having a dream where Patroclus begs Achilles to hold his funeral, Achilles hosts a series of funeral games in his honour.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.527,
+                "ts": "2021-12-24 14:46:28.292599"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5ddfa5744cac67e52ef4e",
+        "head_entity": "Nancy",
+        "head_linked_entity": "nancy, france",
+        "relation": "follows",
+        "tail_entity": "Sarah",
+        "evidences": [
+            {
+                "text": "On October 5, 1818, Nancy Lincoln died of milk sickness, leaving 11-year-old Sarah in charge of a household that included her father, 9-year-old Abraham, and Dennis Hanks, Nancy's 19-year-old orphaned cousin.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.653,
+                "ts": "2021-12-24 14:49:30.144489"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dbc35744cac67e52e90b",
+        "head_entity": "the state",
+        "head_linked_entity": "alabama",
+        "relation": "located_in_time_zone",
+        "tail_entity": "Central Time Zone",
+        "evidences": [
+            {
+                "text": "Temperatures tend to be warmer in the southern part of the state with its proximity to the Gulf of Mexico, while the northern parts of the state, especially in the Appalachian Mountains in the northeast, tend to be slightly cooler.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.269,
+                "ts": "2021-12-24 14:40:03.136899"
+            }
+        ],
+        "judge": 0,
+        "reason": "out of context"
+    },
+    {
+        "_id": "61c5db155744cac67e52e6d9",
+        "head_entity": "ABA",
+        "head_linked_entity": "american basketball association",
+        "relation": "history_of_topic",
+        "tail_entity": "history of early childhood intervention",
+        "evidences": [
+            {
+                "text": "Two theoretical frameworks outlined for early childhood intervention include structured and naturalistic ABA interventions, and developmental social pragmatic models (DSP).",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.202,
+                "ts": "2021-12-24 14:37:09.891035"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5dd615744cac67e52ed6d",
+        "head_entity": "Statius",
+        "head_linked_entity": "statius",
+        "relation": "child",
+        "tail_entity": "Paris",
+        "evidences": [
+            {
+                "text": "In the oldest one, the \"Iliad\", and as predicted by Hector with his dying breath, the hero's death was brought about by Paris with an arrow (to the heel according to Statius).",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.452,
+                "ts": "2021-12-24 14:46:57.765236"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5ddc85744cac67e52ee95",
+        "head_entity": "Achilles",
+        "head_linked_entity": "achilles",
+        "relation": "creator",
+        "tail_entity": "Aeschylus",
+        "evidences": [
+            {
+                "text": "In Plato's \"Symposium\", Phaedrus points out that Aeschylus portrayed Achilles as the lover and Patroclus as the beloved; Phaedrus argues that this is incorrect because Achilles, being the younger and more beautiful of the two, was the beloved, who loved his lover so much that he chose to die to revenge him.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.98,
+                "ts": "2021-12-24 14:48:40.608517"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5de165744cac67e52efab",
+        "head_entity": "internal improvements",
+        "head_linked_entity": "internal improvements",
+        "relation": "follows",
+        "tail_entity": "railroads",
+        "evidences": [
+            {
+                "text": "Their party favored economic modernization in banking, tariffs to fund internal improvements including railroads, and urbanization.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.766,
+                "ts": "2021-12-24 14:49:58.537230"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5db585744cac67e52e7a2",
+        "head_entity": "Kuwaiti",
+        "head_linked_entity": "kuwait",
+        "relation": "currency",
+        "tail_entity": "Kuwaiti rupie",
+        "evidences": [
+            {
+                "text": "A study following the burning of the Kuwaiti oil fields during Iraqi occupation showed that temperatures under the burning oil fires were as much as 10 °C colder than temperatures several miles away under clear skies.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.301,
+                "ts": "2021-12-24 14:38:16.079190"
+            }
+        ],
+        "judge": 0,
+        "reason": "out of context"
+    },
+    {
+        "_id": "61c5dd295744cac67e52eceb",
+        "head_entity": "he",
+        "head_linked_entity": "achilles",
+        "relation": "country",
+        "tail_entity": "Greeks",
+        "evidences": [
+            {
+                "text": "Achilles rejects all Agamemnon offers him and simply urges the Greeks to sail home as he was planning to do.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.622,
+                "ts": "2021-12-24 14:46:01.495103"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5dd885744cac67e52edd2",
+        "head_entity": "Olbia",
+        "head_linked_entity": "olbia",
+        "relation": "shares_border_with",
+        "tail_entity": "Berezan",
+        "evidences": [
+            {
+                "text": "Early dedicatory inscriptions from the Greek colonies on the Black Sea (graffiti and inscribed clay disks, these possibly being votive offerings, from Olbia, the area of Berezan Island and the Tauric Chersonese) attest the existence of a heroic cult of Achilles from the sixth century BC onwards.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.832,
+                "ts": "2021-12-24 14:47:36.458464"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5de965744cac67e52f16d",
+        "head_entity": "Tennessee",
+        "head_linked_entity": "tennessee",
+        "relation": "shares_border_with",
+        "tail_entity": "Kentucky",
+        "evidences": [
+            {
+                "text": "The upper South and border states (Delaware, Maryland, Virginia, North Carolina, Tennessee, Kentucky, Missouri, and Arkansas) initially rejected the secessionist appeal.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.337,
+                "ts": "2021-12-24 14:52:06.704262"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dabd5744cac67e52e5ee",
+        "head_entity": "Mexico",
+        "head_linked_entity": "mexico",
+        "relation": "culture",
+        "tail_entity": "Zapotec",
+        "evidences": [
+            {
+                "text": "Anarchist ideas have been influential in the development of the Zapatistas in Mexico and the Democratic Federation of Northern Syria, more commonly known as Rojava, a \"de facto\" autonomous region in northern Syria.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.323,
+                "ts": "2021-12-24 14:35:41.286063"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5dc995744cac67e52eb60",
+        "head_entity": "pharmacy schools",
+        "head_linked_entity": "list of pharmacy schools",
+        "relation": "follows",
+        "tail_entity": "law schools",
+        "evidences": [
+            {
+                "text": "In the state are four medical schools (as of fall 2015) (University of Alabama School of Medicine, University of South Alabama and Alabama College of Osteopathic Medicine and The Edward Via College of Osteopathic Medicine—Auburn Campus), two veterinary colleges (Auburn University and Tuskegee University), a dental school (University of Alabama School of Dentistry), an optometry college (University of Alabama at Birmingham), two pharmacy schools (Auburn University and Samford University), and five law schools (University of Alabama School of Law, Birmingham School of Law, Cumberland School of Law, Miles Law School, and the Thomas Goode Jones School of Law).",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.734,
+                "ts": "2021-12-24 14:43:37.502667"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5db825744cac67e52e83c",
+        "head_entity": "Yazoo lands",
+        "head_linked_entity": "yazoo lands",
+        "relation": "shares_border_with",
+        "tail_entity": "Mobile",
+        "evidences": [
+            {
+                "text": "With the exception of the area around Mobile and the Yazoo lands, what is now the lower one-third of Alabama was made part of the Mississippi Territory when it was organized in 1798.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.659,
+                "ts": "2021-12-24 14:38:58.405510"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dd585744cac67e52ed4d",
+        "head_entity": "Achilles",
+        "head_linked_entity": "achilles",
+        "relation": "follows",
+        "tail_entity": "Hector",
+        "evidences": [
+            {
+                "text": "The fight between Achilles and Memnon over Antilochus echoes that of Achilles and Hector over Patroclus, except that Memnon (unlike Hector) was also the son of a goddess.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.648,
+                "ts": "2021-12-24 14:46:48.327789"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dc3a5744cac67e52ea51",
+        "head_entity": "Alabama",
+        "head_linked_entity": "alabama",
+        "relation": "contains_administrative_territorial_entity",
+        "tail_entity": "Birmingham",
+        "evidences": [
+            {
+                "text": "Telecommunications provider AT&T, formerly BellSouth, has a major presence in Alabama with several large offices in Birmingham.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.738,
+                "ts": "2021-12-24 14:42:02.194593"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5dc3f5744cac67e52ea60",
+        "head_entity": "state legislature",
+        "head_linked_entity": "california state legislature",
+        "relation": "replaces",
+        "tail_entity": "Alabama Constitution",
+        "evidences": [
+            {
+                "text": "Critics argue that Alabama's constitution maintains highly centralized power with the state legislature, leaving practically no power in local hands.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.251,
+                "ts": "2021-12-24 14:42:07.658256"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dd0e5744cac67e52eca6",
+        "head_entity": "omphalos",
+        "head_linked_entity": "omphalos",
+        "relation": "owned_by",
+        "tail_entity": "Apollo",
+        "evidences": [
+            {
+                "text": "Yet Achilles, struck by the beauty of both Troilus and his sister Polyxena, and overcome with lust, directed his sexual attentions on the youth – who, refusing to yield, instead found himself decapitated upon an altar-omphalos of Apollo Thymbraios.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.88,
+                "ts": "2021-12-24 14:45:34.807009"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5db955744cac67e52e883",
+        "head_entity": "Union",
+        "head_linked_entity": "union (american civil war)",
+        "relation": "contains_administrative_territorial_entity",
+        "tail_entity": "Alabama",
+        "evidences": [
+            {
+                "text": "Alabama was under military rule from the end of the war in May 1865 until its official restoration to the Union in 1868.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.985,
+                "ts": "2021-12-24 14:39:17.746291"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dd785744cac67e52ed9f",
+        "head_entity": "Ajax",
+        "head_linked_entity": "afc ajax",
+        "relation": "sponsor",
+        "tail_entity": "Athena",
+        "evidences": [
+            {
+                "text": "Athena temporarily made Ajax so mad with grief and anguish that he began killing sheep, thinking them his comrades.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.956,
+                "ts": "2021-12-24 14:47:20.949419"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong head type"
+    },
+    {
+        "_id": "61c5dbad5744cac67e52e8cd",
+        "head_entity": "Montgomery",
+        "head_linked_entity": "montgomery, alabama",
+        "relation": "language_used",
+        "tail_entity": "African",
+        "evidences": [
+            {
+                "text": "According to \"The New York Times\", by 2017, many of Alabama's African-Americans were living in Alabama's cities such as Birmingham and Montgomery.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.476,
+                "ts": "2021-12-24 14:39:41.754999"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong tail"
+    },
+    {
+        "_id": "61c5dd815744cac67e52edbd",
+        "head_entity": "it",
+        "head_linked_entity": "achilles",
+        "relation": "followed_by",
+        "tail_entity": "Alexander",
+        "evidences": [
+            {
+                "text": "The city was visited in 333 BC by Alexander the Great, who envisioned himself as the new Achilles and carried the \"Iliad\" with him, but his court biographers do not mention the spear; however, it was shown in the time of Pausanias in the 2nd century AD.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.862,
+                "ts": "2021-12-24 14:47:29.419477"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5db2f5744cac67e52e727",
+        "head_entity": "psychiatrist",
+        "head_linked_entity": "psychiatrist",
+        "relation": "medical_condition",
+        "tail_entity": "schizophrenia",
+        "evidences": [
+            {
+                "text": "The New Latin word \"autismus\" (English translation \"autism\") was coined by the Swiss psychiatrist Eugen Bleuler in 1910 as he was defining symptoms of schizophrenia.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.812,
+                "ts": "2021-12-24 14:37:35.733974"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5db5f5744cac67e52e7c8",
+        "head_entity": "Spain",
+        "head_linked_entity": "spain",
+        "relation": "head_of_state",
+        "tail_entity": "Merovingian",
+        "evidences": [
+            {
+                "text": "Among these were the semicursive minuscule of Italy, the Merovingian script in France, the Visigothic script in Spain, and the Insular or Anglo-Irish semi-uncial or Anglo-Saxon majuscule of Great Britain.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.802,
+                "ts": "2021-12-24 14:38:23.464495"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5de965744cac67e52f171",
+        "head_entity": "Missouri",
+        "head_linked_entity": "missouri",
+        "relation": "mouth_of_the_watercourse",
+        "tail_entity": "Mississippi",
+        "evidences": [
+            {
+                "text": "The upper South and border states (Delaware, Maryland, Virginia, North Carolina, Tennessee, Kentucky, Missouri, and Arkansas) initially rejected the secessionist appeal.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.905,
+                "ts": "2021-12-24 14:52:06.720920"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5de565744cac67e52f095",
+        "head_entity": "life, liberty, and the pursuit of happiness",
+        "head_linked_entity": "life, liberty and the pursuit of happiness",
+        "relation": "follows",
+        "tail_entity": "Declaration of Independence",
+        "evidences": [
+            {
+                "text": "He argued the decision was at variance with the Declaration of Independence; he said that while the founding fathers did not believe all men equal in every respect, they believed all men were equal \"in certain inalienable rights, among which are life, liberty, and the pursuit of happiness\".",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.69,
+                "ts": "2021-12-24 14:51:02.277834"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5ddf15744cac67e52ef25",
+        "head_entity": "Samuel Lincoln",
+        "head_linked_entity": "abraham lincoln",
+        "relation": "family_name",
+        "tail_entity": "Lincoln",
+        "evidences": [
+            {
+                "text": "He was a descendant of Samuel Lincoln, an Englishman who migrated from Hingham, Norfolk, to its namesake, Hingham, Massachusetts, in 1638.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.964,
+                "ts": "2021-12-24 14:49:21.231182"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5db335744cac67e52e730",
+        "head_entity": "Bleuler",
+        "head_linked_entity": "eugen bleuler",
+        "relation": "medical_condition",
+        "tail_entity": "Autistic psychopaths",
+        "evidences": [
+            {
+                "text": "The word \"autism\" first took its modern sense in 1938 when Hans Asperger of the Vienna University Hospital adopted Bleuler's terminology \"autistic psychopaths\" in a lecture in German about child psychology.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.094,
+                "ts": "2021-12-24 14:37:39.399765"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5db865744cac67e52e84b",
+        "head_entity": "Huntsville",
+        "head_linked_entity": "huntsville, alabama",
+        "relation": "flag",
+        "tail_entity": "flag of Alabama",
+        "evidences": [
+            {
+                "text": "Alabama was admitted as the 22nd state on December 14, 1819, with Congress selecting Huntsville as the site for the first Constitutional Convention.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.999,
+                "ts": "2021-12-24 14:39:02.008977"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dc635744cac67e52eabb",
+        "head_entity": "Montgomery",
+        "head_linked_entity": "montgomery, alabama",
+        "relation": "located_in_or_next_to_body_of_water",
+        "tail_entity": "Mobile",
+        "evidences": [
+            {
+                "text": "Because of the constraints of the Alabama Constitution, which centralizes power in the state legislature, only seven counties (Jefferson, Lee, Mobile, Madison, Montgomery, Shelby, and Tuscaloosa) in the state have limited home rule.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.428,
+                "ts": "2021-12-24 14:42:43.285028"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dcaf5744cac67e52eb99",
+        "head_entity": "I-65",
+        "head_linked_entity": "interstate 65",
+        "relation": "highway_system",
+        "tail_entity": "interstate roads",
+        "evidences": [
+            {
+                "text": "Alabama has six major interstate roads that cross the state: Interstate 65 (I-65) travels north–south roughly through the middle of the state;",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.797,
+                "ts": "2021-12-24 14:43:59.441458"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5de5c5744cac67e52f0a2",
+        "head_entity": "Mark 3:25",
+        "head_linked_entity": "gospel of mark",
+        "relation": "creator",
+        "tail_entity": "Lincoln",
+        "evidences": [
+            {
+                "text": "Accepting the nomination, Lincoln delivered his House Divided Speech, with the biblical reference Mark 3:25, \"A house divided against itself cannot stand.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.647,
+                "ts": "2021-12-24 14:51:08.747585"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5dacd5744cac67e52e621",
+        "head_entity": "free love",
+        "head_linked_entity": "free love",
+        "relation": "followed_by",
+        "tail_entity": "anarchy",
+        "evidences": [
+            {
+                "text": "Some anarchists soon found out that free love wasn't without adverse effects as jealously arose.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.193,
+                "ts": "2021-12-24 14:35:57.218181"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5de7b5744cac67e52f111",
+        "head_entity": "Republicans",
+        "head_linked_entity": "republican party (united states)",
+        "relation": "replaces",
+        "tail_entity": "Slave Power",
+        "evidences": [
+            {
+                "text": "As the Slave Power tightened its grip on the national government, most Republicans agreed with Lincoln that the North was the aggrieved party.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.357,
+                "ts": "2021-12-24 14:51:39.127953"
+            }
+        ],
+        "judge": 1
+    },
+    {
+        "_id": "61c5db525744cac67e52e78c",
+        "head_entity": "seasonal snow",
+        "head_linked_entity": "snow (japanese singer)",
+        "relation": "field_of_work",
+        "tail_entity": "forest",
+        "evidences": [
+            {
+                "text": "In the case of evergreen forests with seasonal snow cover albedo reduction may be great enough for deforestation to cause a net cooling effect.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.469,
+                "ts": "2021-12-24 14:38:10.801441"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong head type"
+    },
+    {
+        "_id": "61c5dea75744cac67e52f1b8",
+        "head_entity": "Union",
+        "head_linked_entity": "union (american civil war)",
+        "relation": "follows",
+        "tail_entity": "South Carolina",
+        "evidences": [
+            {
+                "text": "Major Robert Anderson, commander of the Union's Fort Sumter in Charleston, South Carolina, sent a request for provisions to Washington, and Lincoln's order to meet that request was seen by the secessionists as an act of war.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.679,
+                "ts": "2021-12-24 14:52:23.874292"
+            }
+        ],
+        "judge": 0,
+        "reason": "wrong relation"
+    },
+    {
+        "_id": "61c5de025744cac67e52ef64",
+        "head_entity": "Kentucky",
+        "head_linked_entity": "kentucky",
+        "relation": "mouth_of_the_watercourse",
+        "tail_entity": "Mississippi",
+        "evidences": [
+            {
+                "text": "In the early 1830s, he met Mary Owens from Kentucky.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.629,
+                "ts": "2021-12-24 14:49:38.027770"
+            }
+        ]
+    },
+    {
+        "_id": "61c5db8d5744cac67e52e861",
+        "head_entity": "Tuscaloosa",
+        "head_linked_entity": "tuscaloosa, alabama",
+        "relation": "office_held_by_head_of_government",
+        "tail_entity": "Governor",
+        "evidences": [
+            {
+                "text": "On January 30, 1846, the Alabama legislature announced it had voted to move the capital city from Tuscaloosa to Montgomery.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.98,
+                "ts": "2021-12-24 14:39:09.346658"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dcac5744cac67e52eb91",
+        "head_entity": "New York",
+        "head_linked_entity": "manhattan",
+        "relation": "contains_administrative_territorial_entity",
+        "tail_entity": "Anniston",
+        "evidences": [
+            {
+                "text": "For rail transport, Amtrak schedules the \"Crescent\", a daily passenger train, running from New York to New Orleans with station stops at Anniston, Birmingham, and Tuscaloosa.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.88,
+                "ts": "2021-12-24 14:43:56.746293"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dd885744cac67e52edd4",
+        "head_entity": "Olbia",
+        "head_linked_entity": "olbia",
+        "relation": "head_of_government",
+        "tail_entity": "Achilles",
+        "evidences": [
+            {
+                "text": "Early dedicatory inscriptions from the Greek colonies on the Black Sea (graffiti and inscribed clay disks, these possibly being votive offerings, from Olbia, the area of Berezan Island and the Tauric Chersonese) attest the existence of a heroic cult of Achilles from the sixth century BC onwards.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.795,
+                "ts": "2021-12-24 14:47:36.467485"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dc275744cac67e52ea2d",
+        "head_entity": "Japan",
+        "head_linked_entity": "japan",
+        "relation": "located_in_time_zone",
+        "tail_entity": "UTC + 01 : 00",
+        "evidences": [
+            {
+                "text": "Over 100,000 of these are from other countries, including from Canada, the United Kingdom, Germany and Japan.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.653,
+                "ts": "2021-12-24 14:41:43.150288"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dd355744cac67e52ed08",
+        "head_entity": "his",
+        "head_linked_entity": "achilles",
+        "relation": "follows",
+        "tail_entity": "Patroclus",
+        "evidences": [
+            {
+                "text": "Enraged over the death of Patroclus, Achilles ends his refusal to fight and takes the field, killing many men in his rage but always seeking out Hector.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.851,
+                "ts": "2021-12-24 14:46:13.716608"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dda95744cac67e52ee30",
+        "head_entity": "Euxine",
+        "head_linked_entity": "black sea",
+        "relation": "located_on_terrain_feature",
+        "tail_entity": "Oceanus",
+        "evidences": [
+            {
+                "text": "Well known is the connection of these mythological Fortunate Isles (μακαρῶν νῆσοι, \"makárôn nêsoi\") or the Homeric Elysium with the stream Oceanus which according to Greek mythology surrounds the inhabited world, which should have accounted for the identification of the northern strands of the Euxine with it.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.268,
+                "ts": "2021-12-24 14:48:09.122188"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dc745744cac67e52eb0f",
+        "head_entity": "state elections",
+        "head_linked_entity": "parliament of western australia",
+        "relation": "replaced_by",
+        "tail_entity": "General elections",
+        "evidences": [
+            {
+                "text": "For nearly 100 years, local and state elections in Alabama were decided in the Democratic Party primary, with generally only token Republican challengers running in the General Election.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.315,
+                "ts": "2021-12-24 14:43:00.406096"
+            }
+        ]
+    },
+    {
+        "_id": "61c5de965744cac67e52f16c",
+        "head_entity": "Tennessee",
+        "head_linked_entity": "tennessee",
+        "relation": "mouth_of_the_watercourse",
+        "tail_entity": "Mississippi",
+        "evidences": [
+            {
+                "text": "The upper South and border states (Delaware, Maryland, Virginia, North Carolina, Tennessee, Kentucky, Missouri, and Arkansas) initially rejected the secessionist appeal.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.824,
+                "ts": "2021-12-24 14:52:06.699852"
+            }
+        ]
+    },
+    {
+        "_id": "61c5de965744cac67e52f170",
+        "head_entity": "Missouri",
+        "head_linked_entity": "missouri",
+        "relation": "follows",
+        "tail_entity": "Kentucky",
+        "evidences": [
+            {
+                "text": "The upper South and border states (Delaware, Maryland, Virginia, North Carolina, Tennessee, Kentucky, Missouri, and Arkansas) initially rejected the secessionist appeal.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.402,
+                "ts": "2021-12-24 14:52:06.716795"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dc6d5744cac67e52eafd",
+        "head_entity": "Democratic",
+        "head_linked_entity": "democratic party (united states)",
+        "relation": "replaced_by",
+        "tail_entity": "White",
+        "evidences": [
+            {
+                "text": "After 1890, a coalition of White Democratic politicians passed laws to segregate and disenfranchise African American residents, a process completed in provisions of the 1901 constitution.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.664,
+                "ts": "2021-12-24 14:42:53.617092"
+            }
+        ]
+    },
+    {
+        "_id": "61c5db8f5744cac67e52e86b",
+        "head_entity": "free people of color",
+        "head_linked_entity": "free people of color",
+        "relation": "culture",
+        "tail_entity": "African Americans",
+        "evidences": [
+            {
+                "text": "By 1860, the population had increased to 964,201 people, of which nearly half, 435,080, were enslaved African Americans, and 2,690 were free people of color.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.922,
+                "ts": "2021-12-24 14:39:11.000959"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dd035744cac67e52ec85",
+        "head_entity": "spear",
+        "head_linked_entity": "spear",
+        "relation": "owned_by",
+        "tail_entity": "Odysseus",
+        "evidences": [
+            {
+                "text": "Odysseus reasoned that the spear had inflicted the wound; therefore, the spear must be able to heal it.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.994,
+                "ts": "2021-12-24 14:45:23.810700"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dc955744cac67e52eb51",
+        "head_entity": "fourth lowest",
+        "head_linked_entity": "list of mississippi locations by per capita income",
+        "relation": "country",
+        "tail_entity": "United States of America",
+        "evidences": [
+            {
+                "text": "According to U.S. Census data (2000), Alabama's high school graduation rate (75%) is the fourth lowest in the U.S. (after Kentucky, Louisiana and Mississippi).",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.401,
+                "ts": "2021-12-24 14:43:33.543692"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dced5744cac67e52ec54",
+        "head_entity": "Chiron",
+        "head_linked_entity": "chiron",
+        "relation": "follows",
+        "tail_entity": "Peleus",
+        "evidences": [
+            {
+                "text": "According to Photius, the sixth book of the \"New History\" by Ptolemy Hephaestion reported that Thetis burned in a secret place the children she had by Peleus; but when she had Achilles, Peleus noticed, tore him from the flames with only a burnt foot, and confided him to the centaur Chiron.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.903,
+                "ts": "2021-12-24 14:45:01.886551"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dc275744cac67e52ea23",
+        "head_entity": "United Kingdom",
+        "head_linked_entity": "united kingdom",
+        "relation": "located_in_time_zone",
+        "tail_entity": "UTC + 01 : 00",
+        "evidences": [
+            {
+                "text": "Over 100,000 of these are from other countries, including from Canada, the United Kingdom, Germany and Japan.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.822,
+                "ts": "2021-12-24 14:41:43.105940"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dca25744cac67e52eb72",
+        "head_entity": "Alabama",
+        "head_linked_entity": "alabama",
+        "relation": "contains_administrative_territorial_entity",
+        "tail_entity": "Auburn",
+        "evidences": [
+            {
+                "text": "In the 2013 season, Alabama averaged over 100,000 fans per game and Auburn averaged over 80,000 fans, both numbers among the top 20 in the nation in average attendance.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.734,
+                "ts": "2021-12-24 14:43:46.656430"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dc055744cac67e52e9d3",
+        "head_entity": "Giac",
+        "head_linked_entity": "xcas",
+        "relation": "use",
+        "tail_entity": "mardi-frise",
+        "evidences": [
+            {
+                "text": "The four temples within a ten-mile radius of Bayou La Batre, include Chua Chanh Giac, Wat Buddharaksa, and Wat Lao Phoutthavihan.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.0,
+                "ts": "2021-12-24 14:41:09.657698"
+            }
+        ]
+    },
+    {
+        "_id": "61c5de9a5744cac67e52f18a",
+        "head_entity": "Lincoln",
+        "head_linked_entity": "lincoln, england",
+        "relation": "head_of_government",
+        "tail_entity": "Abraham Lincoln",
+        "evidences": [
+            {
+                "text": "Attempts at compromise followed but Lincoln and the Republicans rejected the proposed Crittenden Compromise as contrary to the Party's platform of free-soil in the territories.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.601,
+                "ts": "2021-12-24 14:52:10.137487"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dc815744cac67e52eb29",
+        "head_entity": "tax collectors",
+        "head_linked_entity": "tax collector",
+        "relation": "follows",
+        "tail_entity": "tax assessors",
+        "evidences": [
+            {
+                "text": "Many local offices (county commissioners, boards of education, tax assessors, tax collectors, etc.)",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.916,
+                "ts": "2021-12-24 14:43:13.180281"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dae05744cac67e52e65b",
+        "head_entity": "communication skills",
+        "head_linked_entity": "communication (hitomi takahashi song)",
+        "relation": "sport",
+        "tail_entity": "autism",
+        "evidences": [
+            {
+                "text": "Early behavioral interventions or speech therapy can help children with autism gain self-care, social, and communication skills.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.58,
+                "ts": "2021-12-24 14:36:16.987412"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dda95744cac67e52ee31",
+        "head_entity": "Euxine",
+        "head_linked_entity": "black sea",
+        "relation": "tributary",
+        "tail_entity": "Oceanus",
+        "evidences": [
+            {
+                "text": "Well known is the connection of these mythological Fortunate Isles (μακαρῶν νῆσοι, \"makárôn nêsoi\") or the Homeric Elysium with the stream Oceanus which according to Greek mythology surrounds the inhabited world, which should have accounted for the identification of the northern strands of the Euxine with it.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.908,
+                "ts": "2021-12-24 14:48:09.126436"
+            }
+        ]
+    },
+    {
+        "_id": "61c5db2c5744cac67e52e712",
+        "head_entity": "Mathesius",
+        "head_linked_entity": "johannes mathesius",
+        "relation": "father",
+        "tail_entity": "Martin Luther",
+        "evidences": [
+            {
+                "text": "The \"Table Talk\" of Martin Luther, compiled by his notetaker, Mathesius, contains the story of a 12-year-old boy who may have been severely autistic.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.688,
+                "ts": "2021-12-24 14:37:32.520887"
+            }
+        ]
+    },
+    {
+        "_id": "61c5daed5744cac67e52e679",
+        "head_entity": "autism",
+        "head_linked_entity": "autism",
+        "relation": "has_effect",
+        "tail_entity": "natural speech",
+        "evidences": [
+            {
+                "text": "About a third to a half of individuals with autism do not develop enough natural speech to meet their daily communication needs.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.49,
+                "ts": "2021-12-24 14:36:29.238743"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dd985744cac67e52ee02",
+        "head_entity": "Snake Island",
+        "head_linked_entity": "snake island (black sea)",
+        "relation": "located_in_time_zone",
+        "tail_entity": "UTC + 14: 00",
+        "evidences": [
+            {
+                "text": "The \"present day\" measures, he gives at this point, seem to account for an identification of \"Achillea\" or \"Leuce\" with today's Snake Island.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.212,
+                "ts": "2021-12-24 14:47:52.886860"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dcbf5744cac67e52ebd8",
+        "head_entity": "I-22",
+        "head_linked_entity": "interstate 22",
+        "relation": "terminus_location",
+        "tail_entity": "New Lenox, Illinois",
+        "evidences": [
+            {
+                "text": "Since a direct connection from I-22 to I-422 will not be possible, I-222 has been proposed, as well.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.537,
+                "ts": "2021-12-24 14:44:15.320173"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dab85744cac67e52e5d6",
+        "head_entity": "socialist movements",
+        "head_linked_entity": "socialism",
+        "relation": "replaces",
+        "tail_entity": "anarchists",
+        "evidences": [
+            {
+                "text": "Seeing the victories of the Bolsheviks in the October Revolution and the resulting Russian Civil War, many workers and activists turned to communist parties which grew at the expense of anarchism and other socialist movements.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.557,
+                "ts": "2021-12-24 14:35:36.156098"
+            }
+        ]
+    },
+    {
+        "_id": "61c5ddb15744cac67e52ee3f",
+        "head_entity": "Leuce",
+        "head_linked_entity": "snake island (black sea)",
+        "relation": "owned_by",
+        "tail_entity": "Jove",
+        "evidences": [
+            {
+                "text": "It is said that there, in Leuce island, reside the souls of Achilles and other heroes, and that they wander through the uninhabited valleys of this island; this is how Jove rewarded the men who had distinguished themselves through their virtues, because through virtue they had acquired everlasting honour\".",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.903,
+                "ts": "2021-12-24 14:48:17.951124"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dbc35744cac67e52e90a",
+        "head_entity": "the state",
+        "head_linked_entity": "alabama",
+        "relation": "shares_border_with",
+        "tail_entity": "Mexico",
+        "evidences": [
+            {
+                "text": "Temperatures tend to be warmer in the southern part of the state with its proximity to the Gulf of Mexico, while the northern parts of the state, especially in the Appalachian Mountains in the northeast, tend to be slightly cooler.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.656,
+                "ts": "2021-12-24 14:40:03.132531"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dad55744cac67e52e63a",
+        "head_entity": "Colin Ward",
+        "head_linked_entity": "colin ward",
+        "relation": "field_of_work",
+        "tail_entity": "anarchist",
+        "evidences": [
+            {
+                "text": "Some decades later, anarchist authors such Colin Ward, Hearbert Read and Paul Goodman intensified and expanded anarchist's critique to state education, even the need for schooling as a pedagogical method, suggesting a system that would focus on children's creativity rather than turning them into career-hunters.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.565,
+                "ts": "2021-12-24 14:36:05.812802"
+            }
+        ]
+    },
+    {
+        "_id": "61c5de135744cac67e52ef99",
+        "head_entity": "Mary Todd",
+        "head_linked_entity": "mary todd lincoln",
+        "relation": "father",
+        "tail_entity": "John Stuart",
+        "evidences": [
+            {
+                "text": "Admitted to the Illinois bar in 1836, he moved to Springfield and began to practice law under John T. Stuart, Mary Todd's cousin.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.194,
+                "ts": "2021-12-24 14:49:55.556538"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dd4c5744cac67e52ed39",
+        "head_entity": "Troy",
+        "head_linked_entity": "troy",
+        "relation": "dedicated_to",
+        "tail_entity": "Hector",
+        "evidences": [
+            {
+                "text": "The poem ends with a description of Hector's funeral, with the doom of Troy and Achilles himself still to come.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.85,
+                "ts": "2021-12-24 14:46:36.144599"
+            }
+        ]
+    },
+    {
+        "_id": "61c5dea75744cac67e52f1bf",
+        "head_entity": "Washington",
+        "head_linked_entity": "washington (state)",
+        "relation": "shares_border_with",
+        "tail_entity": "South Carolina",
+        "evidences": [
+            {
+                "text": "Major Robert Anderson, commander of the Union's Fort Sumter in Charleston, South Carolina, sent a request for provisions to Washington, and Lincoln's order to meet that request was seen by the secessionists as an act of war.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.983,
+                "ts": "2021-12-24 14:52:23.904032"
+            }
+        ]
+    },
+    {
+        "_id": "61c5de455744cac67e52f055",
+        "head_entity": "Democratic",
+        "head_linked_entity": "democratic party (united states)",
+        "relation": "replaces",
+        "tail_entity": "Whig",
+        "evidences": [
+            {
+                "text": "Lincoln's decision to withdraw enabled his Whig supporters and Trumbull's antislavery Democrats to combine and defeat the mainstream Democratic candidate, Joel Aldrich Matteson.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.328,
+                "ts": "2021-12-24 14:50:45.541290"
+            }
+        ]
+    },
+    {
+        "_id": "61c5db595744cac67e52e7ab",
+        "head_entity": "Arctic",
+        "head_linked_entity": "arctic (company)",
+        "relation": "field_of_work",
+        "tail_entity": "Climate Change",
+        "evidences": [
+            {
+                "text": "the Intergovernmental Panel on Climate Change estimates that the global mean radiative forcing for black carbon aerosols from fossil fuels is +0.2 W m, with a range +0.1 to +0.4 W m. Black carbon is a bigger cause of the melting of the polar ice cap in the Arctic than carbon dioxide due to its effect on the albedo.",
+                "extractor": "GLM-2B/P-tuning",
+                "confidence": 0.41,
+                "ts": "2021-12-24 14:38:17.263334"
+            }
+        ]
+    }
+]
