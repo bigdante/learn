@@ -1,28 +1,7 @@
-import torch
+i = {(20, 34): [(1, 2, 6)], (21, 35): [(1, 2, 6)]}
+from random import choice
 
-x = torch.randn(3, 4).requires_grad_(True)
-print(x)
-for i in range(3):
-    for j in range(4):
-        x[i][j] = i + j
-y = x ** 3
-print(x)
-print(y)
-weight = torch.ones(y.size())
-print(weight)
-dydx = torch.autograd.grad(outputs=y,
-                           inputs=x,
-                           grad_outputs=weight,
-                           retain_graph=True,
-                           create_graph=True,
-                           only_inputs=True)
-"""(x**2)' = 2*x """
-print(dydx[0])
-d2ydx2 = torch.autograd.grad(outputs=dydx[0],
-                             inputs=x,
-                             grad_outputs=weight,
-                             retain_graph=True,
-                             create_graph=True,
-                             only_inputs=True)
-print(d2ydx2[0])
-
+a = list(i.keys())
+print(a)
+k1, k2 = choice(list(i.keys()))
+print(k1, k2)
