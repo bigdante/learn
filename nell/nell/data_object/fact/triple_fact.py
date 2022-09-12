@@ -16,6 +16,7 @@ class TripleFact(BaseFact):
     tailSpan = ListField(IntField())
 
     evidence = GenericReferenceField(required=True)
+    # evidence = ReferenceField(required=True)
     evidenceText = StringField()
 
     verification = DictField()

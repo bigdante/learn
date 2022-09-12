@@ -20,15 +20,18 @@ app = create_app()
 
 @app.route('/user/<int:age>')
 def query_user(age):
-    result = []
     for a in UserInfo.objects(age=age):
         # print(a.country)
         result.append([getattr(a, i) for i in a.__dict__['_fields_ordered']])
-    for a in Person.objects(height="175"):
-        print(a.name)
-    for a in BaseRelation.objects(text='place of birth'):
-        print(a)
-        print(a.HeadConstraint)
+    for i in WikipediaPage.objects(_id = "624989b1c20df149acb246cf"):
+        print(i)
+    result = []
+
+    # for a in Person.objects(height="175"):
+    #     print(a.name)
+    # for a in BaseRelation.objects(text='place of birth'):
+    #     print(a)
+    #     print(a.HeadConstraint)
         # return a.description
     # idms
 

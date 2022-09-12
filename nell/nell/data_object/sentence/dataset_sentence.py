@@ -9,6 +9,7 @@ class DatasetSentence(Document):
     Sentence class for sentences in a typical dataset
     """
     # values
+
     text = StringField(required=True)
     charSpan = ListField(IntField())
 

@@ -1,5 +1,9 @@
-cuDNN使用非确定性算法，并且可以使用torch.backends.cudnn.enabled = False来进行禁用
-如果设置为torch.backends.cudnn.enabled =True，说明设置为使用使用非确定性算法
+cuDNN使用非确定性算法，并且可以使用
+torch.backends.cudnn.enabled = False
+来进行禁用
+
+如果设置为torch.backends.cudnn.enabled =True，
+说明设置为使用使用非确定性算法
 然后再设置：torch.backends.cudnn.benchmark = true
 那么cuDNN使用的非确定性算法就会自动寻找最适合当前配置的高效算法，来达到优化运行效率的问题
 
@@ -12,5 +16,3 @@ torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark = True
 
 
-action='store_true',
-如果在脚本中加上该参数 --参数，则为true, 而不需要特定指定为true，如果不加就是按照默认值

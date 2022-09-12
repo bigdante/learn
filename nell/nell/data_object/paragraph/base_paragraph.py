@@ -15,7 +15,8 @@ class BaseParagraph(Document):
     # refPage = LazyReferenceField("BasePage")
 
     meta = {
-        "collection": "paragraph"
+        "collection": "paragraph",
+        "db_alias": "NePtune"
     }
 
     def __getattr__(self, item):

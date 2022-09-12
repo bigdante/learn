@@ -8,3 +8,11 @@ class WikipediaPage(BasePage):
     # source
     source = StringField(default="wikipedia")
     source_id = StringField(required=True)
+    meta = {
+        "collection": "relation",
+        # "indexes": [
+        #     "sourceId",
+        #     "$text"
+        # ],
+        "db_alias": "NePtune"
+    }

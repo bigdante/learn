@@ -19,8 +19,9 @@ class BasePage(Document):
     meta = {
         "abstract": True,
         "collection": "page",
-        "indexes": [
-            "source_id",
-            "source"
-        ]
+        # "indexes": [
+        #     "source_id",
+        #     "source"
+        # ],
+        "db_alias": "NePtune"
     }
