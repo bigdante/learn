@@ -7,7 +7,7 @@ x_data = torch.Tensor([[1.0], [2.0], [3.0]])
 y_data = torch.Tensor([[0], [0], [1]])
 
 
-# design model using class
+# design 10-model_frame using class
 class LogisticRegressionModel(torch.nn.Module):
     def __init__(self):
         super(LogisticRegressionModel, self).__init__()

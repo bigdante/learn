@@ -1,0 +1,25 @@
+linux下：
+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
+1.git命令安装
+
+2.git命令的使用
+
+
+3.git和GitHub的操作
+    1）在Linux下，文件进行推送
+        首先创建git
+        echo "# test" >> README.md
+        git init
+        git add README.md
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/bigdante/test.git
+        git push -u origin main
+
+4.遇到问题
+    1）如果fatal: refusing to merge unrelated histories，代表版本不一致
+    git pull origin main --allow-unrelated-histories
+    push也同理解决
+    2）
+
+

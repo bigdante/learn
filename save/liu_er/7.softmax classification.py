@@ -18,8 +18,8 @@ transform = transforms.Compose([
     transforms.Normalize((0.1307,), (0.3081,))
 ])
 
-train_data = datasets.MNIST(root='./data', download=True, train=True, transform=transform)
-test_data = datasets.MNIST(root='./data', download=True, train=False, transform=transform)
+train_data = datasets.MNIST(root='./data_utils', download=True, train=True, transform=transform)
+test_data = datasets.MNIST(root='./data_utils', download=True, train=False, transform=transform)
 train_iter = data.DataLoader(
     dataset=train_data,
     batch_size=batch_size,
@@ -130,7 +130,7 @@ test_dataset = datasets.MNIST(root='../dataset_dataloader_transform/mnist/', tra
 test_loader = DataLoader(test_dataset, shuffle=False, batch_size=batch_size)
 
 
-# design model using class
+# design 10-model_frame using class
 
 
 class Net(torch.nn.Module):

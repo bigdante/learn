@@ -15,8 +15,8 @@ transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize((0.1307,), (0.3081,))
 ])
-train_data = datasets.MNIST(root='./data', download=True, train=True, transform=transform)
-test_data = datasets.MNIST(root='./data', download=True, train=False, transform=transform)
+train_data = datasets.MNIST(root='./data_utils', download=True, train=True, transform=transform)
+test_data = datasets.MNIST(root='./data_utils', download=True, train=False, transform=transform)
 batch_size = 64
 train_iter = data.DataLoader(
     dataset=train_data,
