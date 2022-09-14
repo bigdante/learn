@@ -250,7 +250,7 @@ class ReduceLROnPlateau(object):
 
 
     Example:
-        >>> optimizer = torch.optim.SGD(10-model_frame.parameters(), lr=0.1, momentum=0.9)
+        >>> optimizer = torch.optim.SGD(9-model_frame.parameters(), lr=0.1, momentum=0.9)
         >>> scheduler = ReduceLROnPlateau(optimizer, 'min')
         >>> for epoch in range(10):
         >>>     train(...)
@@ -340,7 +340,7 @@ class ReduceLRWDOnPlateau(ReduceLROnPlateau):
         https://arxiv.org/abs/1711.05101
     for AdamW or SGDW
     Example:
-        >>> optimizer = AdamW(10-model_frame.parameters(), lr=0.1, weight_decay=1e-3)
+        >>> optimizer = AdamW(9-model_frame.parameters(), lr=0.1, weight_decay=1e-3)
         >>> scheduler = ReduceLRWDOnPlateau(optimizer, 'min')
         >>> for epoch in range(10):
         >>>     train(...)

@@ -143,7 +143,7 @@ test_dataset = datasets.MNIST(root='../dataset_dataloader_transform/mnist/', tra
 test_loader = DataLoader(test_dataset, shuffle=False, batch_size=batch_size)
 
 
-# design 10-model_frame using class
+# design 9-model_frame using class
 class ResidualBlock(nn.Module):
     def __init__(self, channels):
         super(ResidualBlock, self).__init__()

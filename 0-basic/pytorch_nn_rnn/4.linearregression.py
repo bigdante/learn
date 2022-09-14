@@ -5,9 +5,9 @@ import torch
 x_data = torch.tensor([[1.0], [2.0], [3.0]])
 y_data = torch.tensor([[2.0], [4.0], [6.0]])
 
-# design 10-model_frame using class
+# design 9-model_frame using class
 """
-our 10-model_frame class should be inherit from nn.Module, which is base class for all neural network modules.
+our 9-model_frame class should be inherit from nn.Module, which is base class for all neural network modules.
 member methods __init__() and forward() have to be implemented
 class nn.linear contain two member Tensors: weight and bias
 class nn.Linear has implemented the magic method __call__(),which enable the instance of the class can
@@ -33,7 +33,7 @@ model = LinearModel()
 # construct loss and optimizer
 # criterion = torch.nn.MSELoss(size_average = False)
 criterion = torch.nn.MSELoss(reduction='sum')
-optimizer = torch.optim.SGD(model.parameters(), lr=0.01)  # 10-model_frame.parameters()自动完成参数的初始化操作
+optimizer = torch.optim.SGD(model.parameters(), lr=0.01)  # 9-model_frame.parameters()自动完成参数的初始化操作
 
 # training cycle forward, backward, update
 for epoch in range(100):

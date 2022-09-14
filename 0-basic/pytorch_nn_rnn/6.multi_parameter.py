@@ -10,7 +10,7 @@ y_data = torch.from_numpy(xy[:, [-1]])  # [-1] 最后得到的是个矩阵
 
 
 # print(x_data.shape)
-# design 10-model_frame using class
+# design 9-model_frame using class
 
 
 class Model(torch.nn.Module):
