@@ -1,4 +1,6 @@
-import torch
+'''
+    这是个最简单的例子，输入都是固定的大小
+'''
 import torch.nn as nn
 import torch.optim as optim
 import torch.utils.data as Data
@@ -18,7 +20,7 @@ n_class = len(word_dict)  # number of Vocabulary, just like |V|, in this task n_
 # NNLM(Neural Network Language Model) Parameter
 n_step = len(
     sentences[0].split()) - 1  # n-1 in paper, look back n_step words and predict next word. In this task n_step=2
-n_hidden = 2  # h in paper，隐藏层神经元个数
+n_hidden = 5  # h in paper，隐藏层神经元个数
 m = 20  # m in paper, word embedding dim
 
 
