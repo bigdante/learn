@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/9-model_frame" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/9-model_frame/models" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.8 (nlp)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (work)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">

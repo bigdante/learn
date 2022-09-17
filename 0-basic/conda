@@ -38,3 +38,7 @@ conda deactivate           #退出小环境
 
 conda env list  / conda info --env    #查看共有多少个小环境
 conda remove -n python --all     #删除conda小环境
+
+3.环境重命名
+conda create -n tf --clone rcnn #把环境 rcnn 重命名成 tf
+conda remove -n rcnn --all
