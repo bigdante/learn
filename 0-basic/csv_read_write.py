@@ -58,6 +58,4 @@ df2 = pd.DataFrame({'alpha': ['A', 'A', 'B', 'F'],
 # 基于共同列alpha的内连接
 df3 = pd.merge(df1, df2, how='inner', on='alpha')
 
-print(df1)
-print(df2)
-print(df3)
+
