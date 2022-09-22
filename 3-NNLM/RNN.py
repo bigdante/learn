@@ -1,162 +1,94 @@
-# PyTorch
+# nn.RNN(input_size, hidden_size, num_layers=1, nonlinearity=tanh, bias=True, batch_first=False, dropout=0, bidirectional=False)
+#
+# 参数说明
+#
+# input_size输入特征的维度， 一般rnn中输入的是词向量，那么 input_size 就等于一个词向量的维度
+# hidden_size隐藏层神经元个数，或者也叫输出的维度（因为rnn输出为各个时间步上的隐藏状态）
+# num_layers网络的层数
+# nonlinearity激活函数
+# bias是否使用偏置
+# batch_first输入数据的形式，默认是 False，就是这样形式，(seq(num_step), batch, input_dim)，也就是将序列长度放在第一位，batch 放在第二位
+# dropout是否应用dropout, 默认不使用，如若使用将其设置成一个0-1的数字即可
+# birdirectional是否使用双向的 rnn，默认是 False
+
+# 输入输出shape
+#
+# input_shape = [时间步数, 批量大小, 特征维度] = [num_steps(seq_length), batch_size, input_dim]
+# 在前向计算后会分别返回输出和隐藏状态h，其中输出指的是隐藏层在各个时间步上计算并输出的隐藏状态，它们通常作为后续输出层的输⼊。需要强调的是，该“输出”本身并不涉及输出层计算，形状为(时间步数, 批量大小, 隐藏单元个数)；隐藏状态指的是隐藏层在最后时间步的隐藏状态：当隐藏层有多层时，每⼀层的隐藏状态都会记录在该变量中；对于像⻓短期记忆（LSTM），隐藏状态是⼀个元组(h, c)，即hidden state和cell state(此处普通rnn只有一个值)隐藏状态h的形状为(层数, 批量大小,隐藏单元个数)
+
+# 输入输出shape
+#
+# input_shape = [时间步数, 批量大小, 特征维度] = [num_steps(seq_length), batch_size, input_dim]
+# 在前向计算后会分别返回输出和隐藏状态h，其中输出指的是隐藏层在各个时间步上计算并输出的隐藏状态，它们通常作为后续输出层的输⼊。需要强调的是，该“输出”本身并不涉及输出层计算，形状为(时间步数, 批量大小, 隐藏单元个数)；隐藏状态指的是隐藏层在最后时间步的隐藏状态：当隐藏层有多层时，每⼀层的隐藏状态都会记录在该变量中；对于像⻓短期记忆（LSTM），隐藏状态是⼀个元组(h, c)，即hidden state和cell state(此处普通rnn只有一个值)隐藏状态h的形状为(层数, 批量大小,隐藏单元个数)
+
+
 import torch
-from torch.nn.utils.rnn import pack_padded_sequence
 from torch.utils import data
 from torch import nn
 from torch import optim
-# Data process
-import csv
+import torch.nn.functional as F
 # For plotting
 import matplotlib.pyplot as plt
-
 import os
 
-# os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
+# RNN hello -> ohlol
 
-class NameDataSet(data.Dataset):
-    def __init__(self, path):
-        super(NameDataSet, self).__init__()
-        with open(path, 'r') as f:
-            data_text = list(csv.reader(f))
-            # print(data_text)
-        self.names = [row[0] for row in data_text]
-        self.countries = [row[1] for row in data_text]
-        self.countries_list = list(sorted(set(self.countries)))
-        # print(self.countries_list)
-        self.countries_label = [self.countries_list.index(i) for i in self.countries]
-        # print(self.countries)
-
-    def __getitem__(self, idx):
-        return self.names[idx], self.countries_label[idx]
-
-    def __len__(self):
-        return len(self.countries)
-
-    def idx2country(self, idx):
-        return self.countries_list[idx]
-
-    def get_countries_num(self):
-        return len(self.countries_list)
-
-
-batch_size = 256
-train_path = 'data/names_train.csv'
-train_data = NameDataSet(train_path)
-train_iter = data.DataLoader(
-    dataset=train_data,
-    shuffle=True,
-    batch_size=batch_size
-)
-test_path = 'data/names_test.csv'
-test_data = NameDataSet(test_path)
-test_iter = data.DataLoader(
-    dataset=test_data,
-    shuffle=False,
-    batch_size=batch_size
-)
-
-
-# SeqLen * BatchSize * InputSize
-def make_tensor(names, countries):
-    label_tensor = torch.tensor(countries, dtype=torch.int64)
-    names_list = [[ord(i) for i in name] for name in names]
-    seq_len = torch.tensor([len(name) for name in names])
-    # BatchSize * SeqLen
-    max_len = seq_len.max().item()
-    seq_tensor = torch.zeros(len(seq_len), max_len).long()
-    for idx, name in enumerate(names_list):
-        seq_tensor[idx, 0:len(name)] = torch.tensor(name)
-    # 按照长度排序
-    seq_len, idx = seq_len.sort(dim=0, descending=True)
-    seq_tensor, label_tensor = seq_tensor[idx], label_tensor[idx]
-    return seq_tensor, seq_len, label_tensor
+idx2char = ['e', 'h', 'l', 'o', 's', 't', 'i',"q"]
+x_idx = torch.tensor([idx2char.index(i) for i in 'hellio'])
+# x_data = F.one_hot(x_idx, 4).reshape(-1, 1, 4).float()  # RNNCell
+z = F.one_hot(x_idx, 8)
+x_data = F.one_hot(x_idx, 8).float().reshape(6, 1, len(idx2char))  # 希望你能发现些什么, 诸如shape, type
+print(x_data.shape)
+# y_data = torch.tensor([idx2char.index(i) for i in 'ohlol']).reshape(-1, 1) ## RNNCell
+y_data = torch.tensor([idx2char.index(i) for i in 'sehoo'])
+print(y_data)
 
 
 class Module(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size, n_layer=1, bidirectional=True):
+    def __init__(self, input_size, hidden_size, batch_size=1, num_layer=1):
         super(Module, self).__init__()
+        self.batch_size = batch_size
         self.hidden_size = hidden_size
-        self.input_size = input_size
-        self.n_direction = 2 if bidirectional else 1
-        self.n_layer = n_layer
-        self.embedding = nn.Embedding(self.input_size, self.hidden_size)
-        self.gru = nn.GRU(self.hidden_size, self.hidden_size, num_layers=n_layer, bidirectional=bidirectional)
-        # gru Input Seq, batch, input Output Seq, batch, hidden*nDirection
-        self.fc = nn.Linear(self.hidden_size * self.n_direction, output_size)
+        self.num_layer = num_layer
+        # rnncell只有单层，所以h的参数就不一样
+        # self.rnncell = nn.RNNCell(input_size, hidden_size)  # RNNCell
+        self.rnn = nn.RNN(input_size=input_size, hidden_size=hidden_size, num_layers=self.num_layer)
 
-    def _init_hidden(self, batch_size):
-        # 注意，每次调用该函数batch_size会改变
-        # gru Hidden Input nLayer*nDirection,BatchSize, HiddenSize
-        # Hidden Output nLayer*nDirection, BatchSize, HiddenSize
-        hidden = torch.zeros(self.n_layer * self.n_direction, batch_size, self.hidden_size)
-        return hidden
+        self.fc = nn.Linear(5, 5)
+    def forward(self, x):
+        hidden = torch.zeros(self.num_layer, self.batch_size, self.hidden_size)
+        y, test = self.rnn(x, hidden)
+        d = test[-1]
+        c = self.fc(test[-1])
+        return y.reshape(-1, self.hidden_size), test[-1],c
+        # return self.rnncell(x, hidden)  # RNNCell
 
-    def forward(self, seq, seq_len):
-        # BatchSize * SeqLen -> SeqLen * BatchSize
-        seq = seq.t()
-        batch_size = seq_len.shape[0]
-        hidden = self._init_hidden(batch_size)
-        embedding = self.embedding(seq)
-        gru_input = pack_padded_sequence(embedding, seq_len)
-        output, hidden = self.gru(gru_input, hidden)
-        # 值得注意的是, 我们使用最后一层的hidden作为输出
-        # n_layer*n_direction, BatchSize, hidden -> Batch, hiddenSize*n_direction
-        # print('GRU的hidden的shape', hidden.shape)
-        if self.n_direction == 2:
-            hidden = torch.cat([hidden[-1], hidden[-2]], dim=1)
-            # 实际上这里有个问题，对于多层n_layer，如何拿到最后的Hidden_forward和Hidden_back
-        else:
-            hidden = hidden[-1]
-        fc_output = self.fc(hidden)
-        return fc_output
+    # def init_hidden(self):  # RNNCell
+    #     return torch.zeros(self.batch_size, self.hidden_size)
 
+print(x_data.shape[2])
+net = Module(x_data.shape[2], len("sehoo"))
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(net.parameters(), lr=0.1)
+num_epochs = 100
 
-def test(net, test_iter):
-    total = 0
-    correct = 0
-    with torch.no_grad():
-        for x, y in test_iter:
-            seq_tensor, seq_len, label_tensor = make_tensor(x, y)
-            _y = net(seq_tensor, seq_len)
-            total += label_tensor.shape[0]
-            _, pre = torch.max(_y, dim=1)
-            # print('pre {} label {}'.format(pre.shape, label_tensor.shape))
-            correct += (pre == label_tensor).sum().item()
-        return correct / total
-
-
-if __name__ == '__main__':
-    # 将128d embedding成 100d
-    input_size = 128
-    hidden_size = 100
-    output_size = train_data.get_countries_num()
-    n_layer = 1
-    num_epoch = 100
-    net = Module(input_size, hidden_size, output_size, n_layer)
-    criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(net.parameters(), lr=0.001)
-    acc_set = []
-    for epoch in range(num_epoch):
-        total_loss = 0
-        for names, countries in train_iter:
-            seq_tensor, seq_len, label_tensor = make_tensor(names, countries)
-            _y = net(seq_tensor, seq_len)
-            loss = criterion(_y, label_tensor)
-
-            optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
-            total_loss += loss.item()
-        acc = test(net, test_iter)
-        acc_set.append(acc)
-        print('第{}轮， 训练损失为{}, 测试正确率为{}'.format(epoch + 1, total_loss, acc))
-
-    plt.figure()
-    plt.plot([i for i in range(num_epoch)], acc_set)
-    plt.xlabel('Epoch')
-    plt.ylabel('Acc')
-    plt.grid()
-    plt.show()
-
-
+for epoch in range(num_epochs):
+    # RNNCell
+    # loss = torch.tensor([0.])
+    # hidden = net.init_hidden()  # RNNCell
+    # for x, y in zip(x_data, y_data):
+    #     # _y, hidden = net(x, hidden)
+    #     loss += criterion(hidden, y)
+    #     _, idx = torch.max(hidden, dim=1)
+    #     print(idx2char[idx], end='')
+    y, test,c = net(x_data)
+    loss = criterion(c.squezze(), y_data)
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+    _, idx = torch.max(y, dim=1)
+    pre = ''.join(idx2char[i] for i in idx)
+    print(test.reshape(-1, len(idx2char)) == y)  # 希望你能发现些什么，最后一层和y是相同的
+    print('{}, 第{}轮, loss为{:.4f}'.format(pre, epoch + 1, loss.item()))

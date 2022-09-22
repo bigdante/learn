@@ -1,4 +1,4 @@
-1.
+1.安装mongodb
 brew update
 brew install mongodb
 
@@ -22,8 +22,13 @@ mongod --dbpath /Users/dante/Downloads/software/mongodb/data/mongodb --logpath /
 查看是否进程在跑
 ps aux | grep -v grep | grep mongod
 
-这个配置好之后，用python或者studio 3T都是访问这个数据库
+这个配置好之后，用studio 3T都是访问这个数据库
 
 问题：
 1.每次进入terminal都要export，否则找不到命令
 2.mongo命令没有，不知道怎么进入到mongo里面，如果不使用其他工具
+
+查询：
+db.getCollection("wikidata_entity").find({"_id":ObjectId("62526dc3f405379c0ebdb61d")})
+
+{'evidence._ref.$id': ObjectId(...)}
