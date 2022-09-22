@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 import os
 
-os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+# os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 
 class NameDataSet(data.Dataset):

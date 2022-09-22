@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 
 # 读
-path = '../6-bert-classification/dataset/test.csv'
-df = pd.read_csv('../6-bert-classification/dataset/test.csv')
+path = '../6-bert/dataset/test.csv'
+df = pd.read_csv('../6-bert/dataset/test.csv')
 print(df.head())
 # 默认情况下，该read_csv()方法将CSV文件第一行中的值视为列标题。但是，您可以在通过以下read_csv()方法读取文件时传递自定义标头名称：
 

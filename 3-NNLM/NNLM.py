@@ -1,10 +1,10 @@
 '''
     这是个最简单的例子，输入都是固定的大小
 '''
+import torch
 import torch.nn as nn
 import torch.optim as optim
 import torch.utils.data as Data
-from models.model_utils import *
 dtype = torch.FloatTensor
 
 sentences = ["i like dog", "i love coffee", "i hate milk"]
@@ -75,7 +75,6 @@ class NNLM(nn.Module):
 
 
 model = NNLM()
-total_paramters(model)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=1e-3)
 
