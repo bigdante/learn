@@ -30,7 +30,7 @@ def getargs():
     '''
     parser = argparse.ArgumentParser()
     # basic parameters
-    parser.add_argument('--input_dir', default="./data/train.txt")
+    parser.add_argument('--input_dir', default="./data/train.csv")
     parser.add_argument('--output_dir', default='./output')
     parser.add_argument('--save_dir', default='./log', help='path to save checkpoints and logs')
     parser.add_argument('--model_name_or_path', default="facebook/bart-base")
