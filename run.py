@@ -1,8 +1,8 @@
-a = []
-a.extend([{"a": 1}, {"b": 1}])
-b = {"a": 2}
-if b in a:
-    print("hhh")
-else:
-    a.extend([b])
-print(a)
+import torch
+from torch import nn
+
+e = nn.Embedding(50,10)
+a = torch.LongTensor([[1,2]])
+print(a.shape)
+print(e(a))
+
