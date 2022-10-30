@@ -19,6 +19,7 @@ source ~/.bashrc
 2.tmux命令的一些应用
 tmux new　　创建默认名称的会话
 tmux new -s mysession　　创建名为mysession的会话
+tmux new -d -s mysession 在后台创建一个session，而不会直接跳转
 tmux ls　　显示会话列表
 tmux a　　连接上一个会话
 tmux a -t mysession　　连接指定会话
