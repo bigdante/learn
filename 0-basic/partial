@@ -1,6 +1,5 @@
 partial作用：传入函数和参数，就像是预先设定了一些值
 
-
 def add(*args, **kwargs):
     # 打印位置参数
     for n in args:

@@ -94,7 +94,7 @@ class BasicModel():
                         os.makedirs(output_dir)
                     model_to_save = (
                         model.module if hasattr(model, "module") else model
-                    )  # Take care of distributed/parallel training
+                    )  # Take care of distributed.txt/parallel training
                     model_to_save.save_pretrained(os.path.join(output_dir, 'model'))
                     tokenizer.save_pretrained(os.path.join(output_dir, 'tokenizer'))
                     torch.save(args, os.path.join(output_dir, "training_args.bin"))
