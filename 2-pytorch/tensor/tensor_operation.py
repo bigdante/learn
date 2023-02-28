@@ -77,3 +77,22 @@ print(x.shape)
 print(x.unsqueeze(0).shape)
 print(x.unsqueeze(1))
 print(x.unsqueeze(1).shape)
+
+# 对不同维度进行求和，结果对shape中这个维度的值就不见了，其他的保留
+a = torch.arange(2).reshape(1,2)
+b = torch.arange(12).reshape(2,2,3)
+print(b)
+print(b.shape)
+print(b.sum(axis=0))
+print(b.sum(axis=0).shape)
+print(b.sum(axis=1))
+print(b.sum(axis=1).shape)
+print(b.sum(axis=2))
+print(b.sum(axis=2).shape)
+# 如果不想维度消失，使用keepdims=True
+
+# a为矩阵，b为向量
+torch.mv(a,b)
+# ab都是矩阵
+torch.mm(a,b)
+
