@@ -1,8 +1,3 @@
-
-1. opt_level
-
-其中只有一个opt_level需要用户自行配置：
-
 O0：纯FP32训练，可以作为accuracy的baseline；
 O1：混合精度训练（推荐使用），根据黑白名单自动决定使用FP16（GEMM, 卷积）还是FP32（Softmax）进行计算。
 O2：“几乎FP16”混合精度训练，不存在黑白名单，除了Batch norm，几乎都是用FP16计算。
