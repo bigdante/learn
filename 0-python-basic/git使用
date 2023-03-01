@@ -48,6 +48,8 @@ linux下：
     push也同理解决
     2）error: The following untracked working tree files would be overwritten by merge:
     git clean -d -fx #但是这个命令会清空当前目录中的所有文件，因为这些文件开始就在本地的git中，GitHub并没有跟踪到。
+    3) HTTP/2 stream 1 was not closed cleanly before end of the underlying stream
+
 
 
 
